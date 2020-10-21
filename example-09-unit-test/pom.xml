@@ -9,10 +9,10 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <packaging>jar</packaging>
+  <groupId>io.github.firestige.pratice0fnettyinaction</groupId>
+  <artifactId>example-09-unit-test</artifactId>
 
-  <groupId>io.github.firestige.pratice-of-netty-in-action</groupId>
-  <artifactId>example-01-first-netty-app</artifactId>
+  <packaging>jar</packaging>
 
   <dependencies>
     <dependency>
@@ -22,6 +22,11 @@
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
