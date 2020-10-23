@@ -19,7 +19,6 @@ public class CharServerInitializer extends ChannelInitializer<Channel> {
 
     @Override
     protected void initChannel(Channel ch) throws Exception {
-        ChannelPipeline pipeline = ch.pipeline();
         ch.pipeline()
                 .addLast(new HttpServerCodec())
                 .addLast(new ChunkedWriteHandler())
